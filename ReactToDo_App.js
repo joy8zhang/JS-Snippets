@@ -36,7 +36,7 @@ class App extends Component {
         });
         return (
             <div>
-            <input paceholder = "Enter todo" value = {this.state.currentTodo}
+            <input placeholder = "Enter todo" value = {this.state.currentTodo}
             onChange = {this.onInputChange}
             />
             <button onClick = {this.onClick}>Add!</button>
